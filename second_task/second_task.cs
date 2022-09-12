@@ -2,8 +2,8 @@
 int line_search = Int32.Parse(Console.ReadLine());
 Console.WriteLine("Введите позицию столбца в двумерном массиве ");
 int column_search = Int32.Parse(Console.ReadLine());
-int rdm_line = new Random().Next(3,4);
-int rdm_column = new Random().Next(3,4);
+int rdm_line = new Random().Next(2,6);
+int rdm_column = new Random().Next(2,4);
 int[,] two_dim_array = new int [ rdm_line,rdm_column ];
 
 for (int i = 0; i < rdm_line; i++)
